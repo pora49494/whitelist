@@ -40,12 +40,15 @@ def check_device_side ( src, dst ):
 
 # Open file 
 
-with open('devices.json', 'r') as fp:
+filename = sys.argv[1].split(".")[0].split("/")[1]
+f_package = open("data/{}".format(sys.argv[1]), 'rb')
+pcap_file = dpkt.pcap.Reader(f_package)
+opcode = str(sys.argv[2])
+
+with open('mac_devices_{}.json'.format(opcode), 'r') as fp:
     devices_profile = json.load(fp)
 
-f_package = open(sys.argv[1], 'rb')
-pcap_file = dpkt.pcap.Reader(f_package)
-   
+
 print("...SCANNING PACKAGE...")
 for ts, buf in pcap_file:
 
@@ -77,13 +80,13 @@ for ts, buf in pcap_file:
           
             protocol = "udp" if ip.p == dpkt.ip.IP_PROTO_UDP else "tcp" 
             port = str(min(trans.sport, trans.dport))
-            src_ip = inet_to_str(ip.src)
-            dst_ip = inet_to_str(ip.dst)
-            src_mac = mac_addr(eth.src) 
-            dst_mac = mac_addr(eth.dst) 
+            src_ip = inet_to_str(ip.src).strip()
+            dst_ip = inet_to_str(ip.dst).strip()
+            src_mac = mac_addr(eth.src).strip() 
+            dst_mac = mac_addr(eth.dst).strip() 
             
-            device_side = check_device_side(src_mac.strip(), dst_mac.strip())
-            # PPDS : Protocol | Port | Device's MAC | Server's IP
+            device_side = check_device_side(src_mac, dst_mac)
+            # PPDS : Protocol | Port | Device's IP | Server's IP
             if device_side == 'src' : 
                 ppds = "{}-{}-{}-{}".format(protocol, port, src_mac, dst_ip)
                 if ppds not in servers_status : 
@@ -123,7 +126,7 @@ for ppds in servers_record :
         if server_ip not in wl[protocol][port]['secured_ip'] : 
              wl[protocol][port]['secured_ip'].append(server_ip)
 
-with open('devices_whitelist.json', 'w') as fp:
+with open('result/{}/mac_whitelist_{}.json'.format(filename,opcode), 'w') as fp:
     content = json.JSONEncoder().encode(devices_profile)
     fp.write(content)
 

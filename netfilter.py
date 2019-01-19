@@ -1,44 +1,66 @@
-from netfilterqueue import NetfilterQueue                                                                                        
+from netfilterqueue import NetfilterQueue
+from kamene.all import * 
+import os
+import sys
 
-accept_device_packet = []
-accept_host_packet = []
-drop_device_packet = []
-drop_host_packet = [] 
+def formatter(pkt) :
+    payload = pkt.get_payload()
+    
+    packet_ip = IP(payload)
+    proto = packet_ip.proto
+    src_ip = packet_ip.src
+    dst_ip = packet_ip.dst
+    
+    eth = Ether(payload)
+    src_mac = eth.src
+    dst_mac = eth.dst 
+
+    udp = UDP(payload)
+    sport = udp.sport
+    dport = udp.dport 
+
+    # proto,src_ip,src_mac,sport,dst_ip,dst_mac,dport
+    return "{},{},{},{},{},{},{}".format(proto,src_ip,src_mac,sport,dst_ip,dst_mac,dport) 
 
 def accept1 (pkt):
-    accept_host_packet.append(pkt)
+    f = open("accept1.txt","w+")
+    f.write("{}\n".format(formatter(pkt)))
     pkt.accept()
      
 def accept2 (pkt):
-    accept_device_packet.append(pkt)
+    f = open("accept2.txt","w+")
+    f.write("{}\n".format(formatter(pkt)))
     pkt.accept()
 
 def drop3 (pkt):
-    drop_host_packet.append(pkt)
+    f = open("drop3.txt","w+")
+    f.write("{}\n".format(formatter(pkt)))
     pkt.accept()
 
 def drop4 (pkt):
-    drop_device_packet.append(pkt)
+    f = open("drop4.txt","w+")
+    f.write("{}\n".format(formatter(pkt)))
     pkt.accept()
 
-nfqueue = NetfilterQueue()
-nfqueue.bind(1, accept1)
-nfqueue.bind(2, accept2)
-nfqueue.bind(3, drop3)
-nfqueue.bind(4, drop4)
+if __name__ == "__main__": 
+    nf1 = NetfilterQueue()
+    nf2 = NetfilterQueue()
+    nf3 = NetfilterQueue()
+    nf4 = NetfilterQueue()
 
-try:
-    nfqueue.run()
-except KeyboardInterrupt:
-    fw1 = open("AH1_data.txt", 'w')
-    fw2 = open("AD2_data.txt", 'w')
-    fw3 = open("DH3_data.txt", 'w')
-    fw4 = open("DD4_data.txt", 'w')
+    nf1.bind(1, accept1)
+    nf2.bind(2, accept2)
+    nf3.bind(3, drop3)
+    nf4.bind(4, drop4)
 
-    fw1.write(accept_host_packet)
-    fw2.write(accept_device_packet)
-    fw3.write(drop_host_packet)
-    fw4.write(drop_device_packet)
-    
-    nfqueue.unbind()
+    try:
+        nf1.run()
+        nf2.run()
+        nf3.run()
+        nf4.run()
+    except KeyboardInterrupt:
+        nf1.unbind()
+        nf2.unbind()
+        nf3.unbind()
+        nf4.unbind()
                                   
