@@ -1,0 +1,44 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr} 
+\usepackage{listings}
+\lstset{language=Pascal}      
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+
+\pagestyle{fancy}
+\graphicspath{ {images/} }
+
+\title{
+    {Thesis Title} \\
+    {\large The University of Tokyo}\\
+}
+\author{Porapat Ongkanchana}
+\date{Today} 
+
+\begin{document}
+
+\input{title}
+
+\chapter*{Abstract}
+\input{chapters/0_abstract} 
+
+\tableofcontents
+\listoffigures
+
+\chapter{Introduction} 
+\input{chapters/1_introduction}
+
+\chapter{Related Technology}
+\input{chapters/2_related_technology}
+
+\chapter{Proposed System}
+\input{chapters/3_proposed_system}
+
+\chapter{Experiment}
+\input{chapters/4_experiment}
+
+\end{document} 

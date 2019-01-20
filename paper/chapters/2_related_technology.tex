@@ -1,0 +1,25 @@
+\section{IoT system Architecture}
+There are many framework architectures used in IoT system. The simplest and most well-known model is the three-layer model: perception layer, network layer, application layer.  
+
+\begin{enumerate}
+    \item \textbf{Perception Layer} or recognition layer: This layer’s main responsibility is to collect useful data from environment, translate those analog data into digital and send it to the server.
+    \item \textbf{Network Layer} : This layer in charge of transmitting the collected data to the application layer. Data can be sent through conventional LAN cable, 3G/4G, Zigbee etc.   
+    \item \textbf{Application Layer} : This layer is where collected data is used to create services. The range of service is impressive: authenticate, real time data visualization and more. 
+\end{enumerate}
+
+\section{Smart Sensor}
+Smart sensor is a device locate at the perception layer of IoT system, normally used for collecting environment data. Next, described some of sensor’s characteristics. 
+
+\begin{enumerate}
+    \item \textbf{Sensor is deployed into the physical environment;}     For example, electricity consumption meter placed behind the wall, near the electric plug to tracking how much electricity spent. Temperature meter embedded into the wall. Tsunami detection sensor located along sea course. 
+    \item \textbf{Expected to operate without user’s recognition;}     After the initial setup, devices are often deployed sparsely into outdoor environment far away commanding center.  
+    \item \textbf{Device’s life span depends on the battery power;}
+    \item \textbf{Low computational power;}     In order to reduce the manufacture cost, sensor usually can operate with a very limited set of functions: sensing and transmitting. All high-computation relied operations is calculated at the server. 
+    \item \textbf{Communicate with a limited number of hosts;}     After device sensed the environment and recorded all necessary data, it transmitted gathered data to its server. Normally this is the only function, sensor serves. So, the main server device needs to communicate to is its application server and there is no need for device to communicate with others.    
+\end{enumerate}
+
+\section{Whitelist and Blacklist }
+Whitelisting and Blacklisting are network filtering techniques. Blacklist is a list containing IP or domain name of malicious hosts. When filter using blacklist-technique is applied to network traffic stream, all the packages related to suspicious hosts in blacklist is discarded. In the other hand, whitelist is a list of secured hosts. Only hosts in the whitelist can communicate with our network. 
+Blacklist is used in various application, while whitelist is an un-popular technique. Our daily device, PC or smartphone, doesn’t have any communication pattern. Listing all the host we would communicate to is impractical.  
+
+\section{Attempt in securing IoT devices}

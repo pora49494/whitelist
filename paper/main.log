@@ -1,0 +1,399 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.16)  20 JAN 2019 17:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/porapatongkanchana/Desktop/whitelist/paper/main.tex
+(/home/porapatongkanchana/Desktop/whitelist/paper/main.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count92
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count93
+\lst@currlwidth=\dimen113
+\lst@column=\count94
+\lst@pos=\count95
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count96
+\lst@lineno=\count97
+\lst@maxwidth=\dimen116
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count98
+\lst@skipnumbers=\count99
+\lst@framebox=\box27
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+\c@ContinuedFloat=\count100
+Package caption Info: listings package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count101
+\c@subtable=\count102
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+) (./main.aux
+
+LaTeX Warning: Label `fig:s4_packet_capturing' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen124
+\scratchbox=\box28
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen125
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: 
+* h-part:(L,W,R)=(62.59607pt, 455.24408pt, 62.59608pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24408pt
+* \textheight=702.78308pt
+* \oddsidemargin=7.39772pt
+* \evensidemargin=-9.67392pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count109
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(./title.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/0_abstract.tex) [1
+
+] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [2
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] (./main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [4
+
+]
+Chapter 1.
+(./chapters/1_introduction.tex [5
+
+]) [6]
+Chapter 2.
+(./chapters/2_related_technology.tex [7
+
+]) [8]
+Chapter 3.
+(./chapters/3_proposed_system.tex
+<images/1_lan.png, id=35, 168.32887pt x 129.18263pt>
+File: images/1_lan.png Graphic file (type png)
+<use images/1_lan.png>
+Package pdftex.def Info: images/1_lan.png  used on input line 15.
+(pdftex.def)             Requested size: 182.09485pt x 139.74579pt.
+<images/1_whitelist.png, id=37, 112.62074pt x 112.92188pt>
+File: images/1_whitelist.png Graphic file (type png)
+<use images/1_whitelist.png>
+Package pdftex.def Info: images/1_whitelist.png  used on input line 22.
+(pdftex.def)             Requested size: 182.09485pt x 182.59814pt.
+ [9
+
+]
+<images/2_system_architecture.png, id=41, 316.18124pt x 398.38838pt>
+File: images/2_system_architecture.png Graphic file (type png)
+<use images/2_system_architecture.png>
+Package pdftex.def Info: images/2_system_architecture.png  used on input line 44.
+(pdftex.def)             Requested size: 273.14922pt x 344.19391pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./images/1_lan.PNG> <./images/1_whitelist.PNG>]
+<images/3_overview.png, id=48, 646.21425pt x 405.01312pt>
+File: images/3_overview.png Graphic file (type png)
+<use images/3_overview.png>
+Package pdftex.def Info: images/3_overview.png  used on input line 82.
+(pdftex.def)             Requested size: 455.24408pt x 285.33034pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [11 <./images/2_system_architecture.PNG>] [12 <./images/3_overview.PNG>]
+Chapter 4.
+(./chapters/4_experiment.tex
+<images/4_packet_capturing.png, id=59, 401.39963pt x 210.48637pt>
+File: images/4_packet_capturing.png Graphic file (type png)
+<use images/4_packet_capturing.png>
+Package pdftex.def Info: images/4_packet_capturing.png  used on input line 13.
+(pdftex.def)             Requested size: 273.14922pt x 143.24123pt.
+ [13
+
+ <./images/4_packet_capturing.PNG>]
+<images/4_pattern_a.png, id=64, 223.73587pt x 380.622pt>
+File: images/4_pattern_a.png Graphic file (type png)
+<use images/4_pattern_a.png>
+Package pdftex.def Info: images/4_pattern_a.png  used on input line 35.
+(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
+File: images/4_pattern_a.png Graphic file (type png)
+<use images/4_pattern_a.png>
+Package pdftex.def Info: images/4_pattern_a.png  used on input line 42.
+(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
+
+Underfull \hbox (badness 1226) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 from PC con-nected to one of
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+
+Overfull \hbox (16.63445pt too wide) in paragraph at lines 55--56
+\OT1/cmr/m/n/12 ad-dress, its op-code equal to 1, and has tar-get MAC ad-dress equal to \00:00:00:00:00:00".
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 60.
+
+[14] [15 <./images/4_pattern_a.PNG>]
+File: images/4_packet_capturing.png Graphic file (type png)
+<use images/4_packet_capturing.png>
+Package pdftex.def Info: images/4_packet_capturing.png  used on input line 80.
+(pdftex.def)             Requested size: 273.14922pt x 143.24123pt.
+ [16] (./options/sh.tex
+Overfull \hbox (22.7197pt too wide) in paragraph at lines 110--1
+\OT1/cmr/m/n/12 In this ex-per-i-ment, we cre-ated a fil-ter by com-bin-ing [][][][][][] and [][][][][][].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--1
+
+ []
+
+)
+<images/4_filter.png, id=77, 447.47176pt x 411.939pt>
+File: images/4_filter.png Graphic file (type png)
+<use images/4_filter.png>
+Package pdftex.def Info: images/4_filter.png  used on input line 133.
+(pdftex.def)             Requested size: 273.14922pt x 251.4584pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/4_netfilter.png, id=78, 870.8535pt x 441.44925pt>
+File: images/4_netfilter.png Graphic file (type png)
+<use images/4_netfilter.png>
+Package pdftex.def Info: images/4_netfilter.png  used on input line 143.
+(pdftex.def)             Requested size: 455.24408pt x 230.7674pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [17] [18 <./images/4_filter.PNG> <./images/4_netfilter.PNG>] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5081 strings out of 492641
+ 75471 string characters out of 6131787
+ 189174 words of memory out of 5000000
+ 8889 multiletter control sequences out of 15000+600000
+ 9668 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,11n,43p,1097b,1132s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ./main.pdf (19 pages, 435950 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
