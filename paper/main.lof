@@ -1,12 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System's key characteristics\relax }}{10}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces System Architecture \relax }}{11}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces System Overview\relax }}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System's key characteristics\relax }}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System Architecture \relax }}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces System Overview\relax }}{9}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Packet Capturing\relax }}{13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Packet Capturing Patterns\relax }}{15}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Packet Capturing\relax }}{16}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Packet Filtering using iptables\relax }}{18}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Analyzing matched packet by iptables using NetfilterQueue-python module and kamene\relax }}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip The network topology of eroom.\relax }}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Packet Capturing\relax }}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Packet capturing method\relax }}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The result of device discovery\relax }}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Screenshot of Whitelist Extraction Program (eroom)\relax }}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Analyzing matched packet using NetfilterQueue-python module and kamene\relax }}{18}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

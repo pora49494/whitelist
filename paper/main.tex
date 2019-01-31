@@ -3,17 +3,25 @@
 \usepackage{graphicx}
 \usepackage[a4paper, width=160mm, top=25mm, bottom=25mm, bindingoffset=6mm]{geometry}
 \usepackage{fancyhdr} 
-\usepackage{listings}
-\lstset{language=Pascal}      
+\usepackage{listings}    
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[flushleft]{threeparttable}
+\usepackage{adjustbox}
+\usepackage{float}
 \usepackage{color}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{booktabs}  
+\usepackage[sorting=none]{biblatex}
 
-\pagestyle{fancy}
+\lstset{language=Pascal}   
+\pagestyle{fancy} 
 \graphicspath{ {images/} }
-
+\addbibresource{_references.bib}
+ 
 \title{
-    {Thesis Title} \\
+    {Thesis Title} \\ 
     {\large The University of Tokyo}\\
 }
 \author{Porapat Ongkanchana}
@@ -21,24 +29,37 @@
 
 \begin{document}
 
-\input{title}
+\input{_title}
 
-\chapter*{Abstract}
+\pagenumbering{roman}
+
+\chapter*{Abstract} 
 \input{chapters/0_abstract} 
 
 \tableofcontents
 \listoffigures
-
+ 
 \chapter{Introduction} 
+\setcounter{page}{1}
+\pagenumbering{arabic}
 \input{chapters/1_introduction}
 
-\chapter{Related Technology}
+\chapter{Related Technology} 
 \input{chapters/2_related_technology}
 
 \chapter{Proposed System}
 \input{chapters/3_proposed_system}
 
 \chapter{Experiment}
-\input{chapters/4_experiment}
+\input{chapters/4_0_experiment}
+
+\chapter{Conclusion}
+\input{chapters/5_conclusion}
+
+\chapter*{Acknowledgement}
+\input{chapters/6_acknowledgement}
+
+\printbibliography[title=References]
+
 
 \end{document} 

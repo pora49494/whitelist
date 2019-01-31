@@ -1,0 +1,79 @@
+\section{Packet Capturing}
+\label{packet_capture}
+\subsection{Purpose}
+Packet data is captured, then analyzed to investigate the pattern of IoT system communication. This packet data capturing method is used in both “Device discovery experiment”, and “Whitelist extraction” 
+
+\begin{figure}[h]
+    \centering 
+    \includegraphics[width=0.55\textwidth]{4_packet_capturing}
+    \caption{Packet Capturing}
+    \label{fig:s4_packet_capturing}
+\end{figure}
+
+
+\subsection{Method}
+First, we inserted a computer in between Switch and any IoT devices, we aim to capture its packet. As a requirement, computer used in this procedure must has at least 2 network interfaces. One network interface was connected to the switch, while another was connected to IoT device (Figure \ref{fig:s4_packet_capturing}). After that, we created network bridge to connect two of inserted computer network interfaces. Any computers run with Linux kernel can initiate a bridge using “brctl” command. Then packet would be captured using tpcdump command. (tcpdump is a TCP/IP packet sniffing command) Collected data was saved into PCAP format. 
+
+In this experiment, we had tested capturing devices’ packet in 2 patterns. In pattern A (Figure \ref{fig:s4_pattern_a}), we created a computer bridge between all devices and switch, while in pattern B (Figure \ref{fig:s4_pattern_b}), we connected PC to one of IoT devices switch’s ports, and capturing packet coming through.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{4_pattern_a}
+        \caption{Pattern A: Capturing packets between switch and IoT devices}
+        \label{fig:s4_pattern_a}
+    \end{subfigure}
+    \hspace{1.5cm}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{4_pattern_b}
+        \caption{Pattern B: Capturing packet from one of switch's port}
+        \label{fig:s4_pattern_b}
+    \end{subfigure}
+    \caption{Packet capturing method}
+\end{figure}
+
+
+
+\subsection{Result}
+
+After we have sufficiently taken to traffic data, we used Wireshark to perform primary investigation. 
+The results are summarized below (In this research, we only considered IPv4). 
+
+\subsubsection{eroom - Pattern A (Switch-Bridge-IoT)}
+
+\begin{table}[H]
+    \begin{tabular}{l|lll}
+    \textbf{Source}                                                                & \textbf{Destination}                                                                                             & \textbf{Protocol}   & \textbf{Description}                                                               \\ \toprule
+    \multirow{3}{*}{Router(.1)}                                                    & 224.0.0.1                                                                                                        & IGMPv2              & \begin{tabular}[c]{@{}l@{}}Multi-cast group \\ participation protocol\end{tabular} \\ \cline{2-4} 
+                                                                                   & 239.255.255.250                                                                                                  & SSDP(UDP/1900)     & \begin{tabular}[c]{@{}l@{}}Simple Service \\ Discovery Protocol\end{tabular}       \\ \cline{2-4} 
+                                                                                   & EchonetLite \small(.10)                                                                                                & DNS(UDP/53)         & DNS Response                                                                       \\ \hline
+    \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}EchonetLite\\ (.10)\end{tabular}}   & 160.16.109.189                                                                                                   & HTTP/POST(TCP/80)  & \begin{tabular}[c]{@{}l@{}}For saving data \\ to the database\end{tabular}         \\ \cline{2-4} 
+                                                                                   & \begin{tabular}[c]{@{}l@{}}133.243.238.243,\\ 133.243.238.244,\\ 133.243.238.164,\\ 133.243.238.163\end{tabular} & NTP(UDP/123)        & Network Time Protocol                                                              \\ \cline{2-4} 
+                                                                                    \small& Router \small(.1)                                                                                                       & DNS(UDP/53)         & DNS Query                                                                          \\ \cline{2-4} 
+                                                                                   & \begin{tabular}[c]{@{}l@{}}\small Air Conditioner and \\ \small Control panel \\ \small (.12/.13 and .11)\end{tabular}                                             & Profinet(UDP/3610) & EchoNet Protocol                                                                   \\ \hline
+    \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Control panel\\ (.11)\end{tabular}} & 54.65.232.105                                                                                                   & HTTPs(TCP/443)     & TLSv1.2                                                                            \\ \cline{2-4} 
+                                                                                   & 224.0.23.0                                                                                                       & IGMPv2              & \begin{tabular}[c]{@{}l@{}}Multi-cast group \\ participation protocol\end{tabular} \\ \cline{2-4}
+                                                                                    & EchonetLite \small(.10)                                                                                                & Profinet(UDP/3610)         & DNS Response                                                                       \\ \hline
+                                                                                \begin{tabular}[c]{@{}l@{}}Air Conditioner\\  (.12/.13)\end{tabular}           & EchonetLite \small(.10)                                                                                                & Profinet(UDP/3610) & EchoNet Protocol                                                           \\ \bottomrule       
+    \end{tabular} 
+
+    \begin{tablenotes}
+        \small
+        \item Captured period : 2018-11-29 07:21:26 - 2018-12-04 05:40:04 
+        \item Number of captured packet : 905454  
+    \end{tablenotes}
+    \caption{eroom-Pattern-A Packet Summary}
+    \label{table:s4_eroom}
+\end{table}
+
+
+\subsubsection{eroom - Pattern B}
+\small
+Captured period : 2019-01-20 12:52:30 - 2019-01-20 17:49:45\\
+Number of captured packet : 6424   
+\normalsize
+\\ \\
+For pattern B, we could only detect broadcast packets. We found that packet data we have captured is mainly contained with ARP request packet and SSDP packet.
+

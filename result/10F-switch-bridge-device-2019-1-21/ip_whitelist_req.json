@@ -1,0 +1,168 @@
+{
+    "133.11.168.49": {
+        "mac_address": [
+            "44:87:fc:ec:58:8a"
+        ],
+        "white_list": {
+            "udp": {
+                "138": {
+                    "secured_ip": [
+                        "133.11.168.255"
+                    ],
+                    "hosts": {
+                        "133.11.168.255": {
+                            "secure_ratio": 0.9811320754716981,
+                            "servers_secure_record": 52,
+                            "servers_record": 53
+                        }
+                    }
+                },
+                "137": {
+                    "secured_ip": [
+                        "133.11.168.255"
+                    ],
+                    "hosts": {
+                        "133.11.168.255": {
+                            "secure_ratio": 0.9736842105263158,
+                            "servers_secure_record": 37,
+                            "servers_record": 38
+                        }
+                    }
+                }
+            },
+            "tcp": {}
+        }
+    },
+    "133.11.168.1": {
+        "mac_address": [
+            "cc:4e:24:4d:0e:00"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.38": {
+        "mac_address": [
+            "a4:ba:db:df:30:ee"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.26": {
+        "mac_address": [
+            "d0:67:e5:ef:e5:31"
+        ],
+        "white_list": {
+            "udp": {
+                "5353": {
+                    "secured_ip": [
+                        "224.0.0.251"
+                    ],
+                    "hosts": {
+                        "224.0.0.251": {
+                            "secure_ratio": 0.9967637540453075,
+                            "servers_secure_record": 308,
+                            "servers_record": 309
+                        }
+                    }
+                }
+            },
+            "tcp": {}
+        }
+    },
+    "133.11.168.50": {
+        "mac_address": [
+            "00:1d:73:72:0a:e3"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.84": {
+        "mac_address": [
+            "10:98:36:ae:fe:99"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.82": {
+        "mac_address": [
+            "10:98:36:ae:fe:89"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.60": {
+        "mac_address": [
+            "c8:9c:1d:01:30:80"
+        ],
+        "white_list": {
+            "udp": {},
+            "tcp": {}
+        }
+    },
+    "133.11.168.11": {
+        "mac_address": [
+            "00:1d:73:41:b1:70"
+        ],
+        "white_list": {
+            "udp": {
+                "123": {
+                    "secured_ip": [
+                        "210.173.160.57",
+                        "210.173.160.87",
+                        "210.173.160.27"
+                    ],
+                    "hosts": {
+                        "210.173.160.57": {
+                            "secure_ratio": 0.9473684210526315,
+                            "servers_secure_record": 18,
+                            "servers_record": 19
+                        },
+                        "210.173.160.87": {
+                            "secure_ratio": 0.9473684210526315,
+                            "servers_secure_record": 18,
+                            "servers_record": 19
+                        },
+                        "210.173.160.27": {
+                            "secure_ratio": 0.9473684210526315,
+                            "servers_secure_record": 18,
+                            "servers_record": 19
+                        }
+                    }
+                }
+            },
+            "tcp": {}
+        }
+    },
+    "133.11.168.52": {
+        "mac_address": [
+            "00:50:01:1c:12:d6"
+        ],
+        "white_list": {
+            "udp": {
+                "47808": {
+                    "secured_ip": [
+                        "133.11.168.255"
+                    ],
+                    "hosts": {
+                        "133.11.168.255": {
+                            "secure_ratio": 0.9967637540453075,
+                            "servers_secure_record": 308,
+                            "servers_record": 309
+                        }
+                    }
+                }
+            },
+            "tcp": {}
+        }
+    }
+}

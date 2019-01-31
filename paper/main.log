@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.16)  20 JAN 2019 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.16)  31 JAN 2019 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -100,9 +100,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
@@ -121,70 +119,372 @@ Package caption Info: listings package is loaded.
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subfigure=\count101
 \c@subtable=\count102
+) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box28
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count103
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+ (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box29
+)
+\tc@llx=\dimen124
+\tc@lly=\dimen125
+\tc@urx=\dimen126
+\tc@ury=\dimen127
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen128
+\adjbox@Height=\dimen129
+\adjbox@Depth=\dimen130
+\adjbox@Totalheight=\dimen131
+\adjbox@pwidth=\dimen132
+\adjbox@pheight=\dimen133
+\adjbox@pdepth=\dimen134
+\adjbox@ptotalheight=\dimen135
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count104
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box30
+\sift@deathcycles=\count105
+\@vwid@loff=\dimen136
+\@vwid@roff=\dimen137
+)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count106
+\float@exts=\toks21
+\float@box=\box31
+\@float@everytoks=\toks22
+\@floatcapt=\box32
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (./main.aux
-
-LaTeX Warning: Label `fig:s4_packet_capturing' multiply defined.
-
-)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen124
-\scratchbox=\box28
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen125
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen138
+\enit@toks=\toks23
+\enit@inbox=\box33
+\enitdp@description=\count107
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count108
+\multirow@dima=\skip54
+\bigstrutjot=\dimen139
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen140
+\lightrulewidth=\dimen141
+\cmidrulewidth=\dimen142
+\belowrulesep=\dimen143
+\belowbottomsep=\dimen144
+\aboverulesep=\dimen145
+\abovetopsep=\dimen146
+\cmidrulesep=\dimen147
+\cmidrulekern=\dimen148
+\defaultaddspace=\dimen149
+\@cmidla=\count109
+\@cmidlb=\count110
+\@aboverulesep=\dimen150
+\@belowrulesep=\dimen151
+\@thisruleclass=\count111
+\@lastruleclass=\count112
+\@thisrulewidth=\dimen152
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count113
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+))) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count114
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count115
+\decimalpart=\count116
 )
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count117
+\c@listtotal=\count118
+\c@listcount=\count119
+\c@liststart=\count120
+\c@liststop=\count121
+\c@citecount=\count122
+\c@citetotal=\count123
+\c@multicitecount=\count124
+\c@multicitetotal=\count125
+\c@instcount=\count126
+\c@maxnames=\count127
+\c@minnames=\count128
+\c@maxitems=\count129
+\c@minitems=\count130
+\c@citecounter=\count131
+\c@savedcitecounter=\count132
+\c@uniquelist=\count133
+\c@uniquename=\count134
+\c@refsection=\count135
+\c@refsegment=\count136
+\c@maxextratitle=\count137
+\c@maxextratitleyear=\count138
+\c@maxextradate=\count139
+\c@maxextraalpha=\count140
+\c@abbrvpenalty=\count141
+\c@highnamepenalty=\count142
+\c@lownamepenalty=\count143
+\c@maxparens=\count144
+\c@parenlevel=\count145
+\blx@tempcnta=\count146
+\blx@tempcntb=\count147
+\blx@tempcntc=\count148
+\blx@maxsection=\count149
+\blx@maxsegment@0=\count150
+\blx@notetype=\count151
+\blx@parenlevel@text=\count152
+\blx@parenlevel@foot=\count153
+\blx@sectionciteorder@0=\count154
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count155
+\c@maxcomprange=\count156
+\c@mincompwidth=\count157
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count158
+\c@savedafterword=\count159
+\c@annotator=\count160
+\c@savedannotator=\count161
+\c@author=\count162
+\c@savedauthor=\count163
+\c@bookauthor=\count164
+\c@savedbookauthor=\count165
+\c@commentator=\count166
+\c@savedcommentator=\count167
+\c@editor=\count168
+\c@savededitor=\count169
+\c@editora=\count170
+\c@savededitora=\count171
+\c@editorb=\count172
+\c@savededitorb=\count173
+\c@editorc=\count174
+\c@savededitorc=\count175
+\c@foreword=\count176
+\c@savedforeword=\count177
+\c@holder=\count178
+\c@savedholder=\count179
+\c@introduction=\count180
+\c@savedintroduction=\count181
+\c@namea=\count182
+\c@savednamea=\count183
+\c@nameb=\count184
+\c@savednameb=\count185
+\c@namec=\count186
+\c@savednamec=\count187
+\c@translator=\count188
+\c@savedtranslator=\count189
+\c@shortauthor=\count190
+\c@savedshortauthor=\count191
+\c@shorteditor=\count192
+\c@savedshorteditor=\count193
+\c@labelname=\count194
+\c@savedlabelname=\count195
+\c@institution=\count196
+\c@savedinstitution=\count197
+\c@lista=\count198
+\c@savedlista=\count199
+\c@listb=\count266
+\c@savedlistb=\count267
+\c@listc=\count268
+\c@savedlistc=\count269
+\c@listd=\count270
+\c@savedlistd=\count271
+\c@liste=\count272
+\c@savedliste=\count273
+\c@listf=\count274
+\c@savedlistf=\count275
+\c@location=\count276
+\c@savedlocation=\count277
+\c@organization=\count278
+\c@savedorganization=\count279
+\c@origlocation=\count280
+\c@savedoriglocation=\count281
+\c@origpublisher=\count282
+\c@savedorigpublisher=\count283
+\c@publisher=\count284
+\c@savedpublisher=\count285
+\c@language=\count286
+\c@savedlanguage=\count287
+\c@origlanguage=\count288
+\c@savedoriglanguage=\count289
+\c@pageref=\count290
+\c@savedpageref=\count291
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count292
+\c@textcitetotal=\count293
+\c@textcitemaxnames=\count294
+\c@biburlnumpenalty=\count295
+\c@biburlucpenalty=\count296
+\c@biburllcpenalty=\count297
+\c@smartand=\count298
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count299
+\c@bbx:relatedtotal=\count300
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+\@quotelevel=\count301
+\@quotereset=\count302
+ (/home/porapatongkanchana/Desktop/whitelist/paper/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count303
+\scratchdimen=\dimen153
+\scratchbox=\box34
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen154
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
@@ -227,25 +527,37 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count109
+\c@lstlisting=\count309
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(./title.tex [1
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/0_abstract.tex) [1
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+(/home/porapatongkanchana/Desktop/whitelist/paper/main.bbl)
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
+ (/home/porapatongkanchana/Desktop/whitelist/paper/_title.tex [1
 
-] (./main.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/0_abstract.tex) [1
+
+] (/home/porapatongkanchana/Desktop/whitelist/paper/main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 5.
  [2
 
 ])
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 
 
@@ -254,146 +566,195 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (./main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
+[3] (/home/porapatongkanchana/Desktop/whitelist/paper/main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
  [4
 
 ]
 Chapter 1.
-(./chapters/1_introduction.tex [5
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/1_introduction.tex [1
 
-]) [6]
+]) [2]
 Chapter 2.
-(./chapters/2_related_technology.tex [7
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/2_related_technology.tex [3
 
-]) [8]
+] [4]) [5]
 Chapter 3.
-(./chapters/3_proposed_system.tex
-<images/1_lan.png, id=35, 168.32887pt x 129.18263pt>
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/3_proposed_system.tex
+<images/1_lan.png, id=40, 168.32887pt x 129.18263pt>
 File: images/1_lan.png Graphic file (type png)
 <use images/1_lan.png>
-Package pdftex.def Info: images/1_lan.png  used on input line 15.
+Package pdftex.def Info: images/1_lan.png  used on input line 17.
 (pdftex.def)             Requested size: 182.09485pt x 139.74579pt.
-<images/1_whitelist.png, id=37, 112.62074pt x 112.92188pt>
+<images/1_whitelist.png, id=42, 112.62074pt x 112.92188pt>
 File: images/1_whitelist.png Graphic file (type png)
 <use images/1_whitelist.png>
-Package pdftex.def Info: images/1_whitelist.png  used on input line 22.
+Package pdftex.def Info: images/1_whitelist.png  used on input line 24.
 (pdftex.def)             Requested size: 182.09485pt x 182.59814pt.
- [9
+ [6
 
 ]
-<images/2_system_architecture.png, id=41, 316.18124pt x 398.38838pt>
+<images/2_system_architecture.png, id=46, 344.78813pt x 382.42876pt>
 File: images/2_system_architecture.png Graphic file (type png)
 <use images/2_system_architecture.png>
-Package pdftex.def Info: images/2_system_architecture.png  used on input line 44.
-(pdftex.def)             Requested size: 273.14922pt x 344.19391pt.
+Package pdftex.def Info: images/2_system_architecture.png  used on input line 46.
+(pdftex.def)             Requested size: 273.14922pt x 302.97319pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <./images/1_lan.PNG> <./images/1_whitelist.PNG>]
-<images/3_overview.png, id=48, 646.21425pt x 405.01312pt>
+[7 </home/porapatongkanchana/Desktop/whitelist/paper/images/1_lan.PNG> </home/porapatongkanchana/Desktop/whitelist/paper/images/1_whitelist.PNG>]
+<images/3_overview.png, id=52, 646.21425pt x 405.01312pt>
 File: images/3_overview.png Graphic file (type png)
 <use images/3_overview.png>
-Package pdftex.def Info: images/3_overview.png  used on input line 82.
+Package pdftex.def Info: images/3_overview.png  used on input line 83.
 (pdftex.def)             Requested size: 455.24408pt x 285.33034pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [11 <./images/2_system_architecture.PNG>] [12 <./images/3_overview.PNG>]
+ [8 </home/porapatongkanchana/Desktop/whitelist/paper/images/2_system_architecture.PNG>]) [9 </home/porapatongkanchana/Desktop/whitelist/paper/images/3_overview.PNG>]
 Chapter 4.
-(./chapters/4_experiment.tex
-<images/4_packet_capturing.png, id=59, 401.39963pt x 210.48637pt>
-File: images/4_packet_capturing.png Graphic file (type png)
-<use images/4_packet_capturing.png>
-Package pdftex.def Info: images/4_packet_capturing.png  used on input line 13.
-(pdftex.def)             Requested size: 273.14922pt x 143.24123pt.
- [13
-
- <./images/4_packet_capturing.PNG>]
-<images/4_pattern_a.png, id=64, 223.73587pt x 380.622pt>
-File: images/4_pattern_a.png Graphic file (type png)
-<use images/4_pattern_a.png>
-Package pdftex.def Info: images/4_pattern_a.png  used on input line 35.
-(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
-File: images/4_pattern_a.png Graphic file (type png)
-<use images/4_pattern_a.png>
-Package pdftex.def Info: images/4_pattern_a.png  used on input line 42.
-(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
-
-Underfull \hbox (badness 1226) in paragraph at lines 43--43
-\OT1/cmr/m/n/10.95 from PC con-nected to one of
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_0_experiment.tex (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_1_iot_device.tex
+<images/4_eroom.jpg, id=61, 618.81187pt x 457.71pt>
+File: images/4_eroom.jpg Graphic file (type jpg)
+<use images/4_eroom.jpg>
+Package pdftex.def Info: images/4_eroom.jpg  used on input line 10.
+(pdftex.def)             Requested size: 409.71689pt x 303.06032pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+ [10
 
-Overfull \hbox (16.63445pt too wide) in paragraph at lines 55--56
+]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_2_packet.tex
+<images/4_packet_capturing.png, id=66, 384.53662pt x 190.311pt>
+File: images/4_packet_capturing.png Graphic file (type png)
+<use images/4_packet_capturing.png>
+Package pdftex.def Info: images/4_packet_capturing.png  used on input line 8.
+(pdftex.def)             Requested size: 250.38562pt x 123.91846pt.
+ [11 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_eroom.JPG> </home/porapatongkanchana/Desktop/whitelist/paper/images/4_packet_capturing.PNG>]
+<images/4_pattern_a.png, id=71, 223.73587pt x 380.622pt>
+File: images/4_pattern_a.png Graphic file (type png)
+<use images/4_pattern_a.png>
+Package pdftex.def Info: images/4_pattern_a.png  used on input line 23.
+(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
+<images/4_pattern_b.png, id=72, 211.08862pt x 359.84438pt>
+File: images/4_pattern_b.png Graphic file (type png)
+<use images/4_pattern_b.png>
+Package pdftex.def Info: images/4_pattern_b.png  used on input line 30.
+(pdftex.def)             Requested size: 159.3382pt x 271.63417pt.
+
+Overfull \hbox (15.88445pt too wide) in paragraph at lines 47--61
+[][] 
+ []
+
+[12 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_a.PNG> </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_b.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
+
+ []
+
+) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_3_device_discovery.tex [13]
+Overfull \hbox (16.63445pt too wide) in paragraph at lines 12--13
 \OT1/cmr/m/n/12 ad-dress, its op-code equal to 1, and has tar-get MAC ad-dress equal to \00:00:00:00:00:00".
  []
 
+<images/device_detection/eroom_switch_req.png, id=81, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_switch_req.png Graphic file (type png)
+<use images/device_detection/eroom_switch_req.png>
+Package pdftex.def Info: images/device_detection/eroom_switch_req.png  used on input line 24.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+<images/device_detection/eroom_switch_rep.png, id=82, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_switch_rep.png Graphic file (type png)
+<use images/device_detection/eroom_switch_rep.png>
+Package pdftex.def Info: images/device_detection/eroom_switch_rep.png  used on input line 31.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+<images/device_detection/eroom_switch_gra.png, id=83, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_switch_gra.png Graphic file (type png)
+<use images/device_detection/eroom_switch_gra.png>
+Package pdftex.def Info: images/device_detection/eroom_switch_gra.png  used on input line 38.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+<images/device_detection/eroom_arp_req.png, id=84, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_arp_req.png Graphic file (type png)
+<use images/device_detection/eroom_arp_req.png>
+Package pdftex.def Info: images/device_detection/eroom_arp_req.png  used on input line 45.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+<images/device_detection/eroom_arp_rep.png, id=85, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_arp_rep.png Graphic file (type png)
+<use images/device_detection/eroom_arp_rep.png>
+Package pdftex.def Info: images/device_detection/eroom_arp_rep.png  used on input line 52.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+<images/device_detection/eroom_arp_gra.png, id=86, 289.08pt x 289.08pt>
+File: images/device_detection/eroom_arp_gra.png Graphic file (type png)
+<use images/device_detection/eroom_arp_gra.png>
+Package pdftex.def Info: images/device_detection/eroom_arp_gra.png  used on input line 59.
+(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
+[14 </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_req.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_rep.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_gra.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_req.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_rep.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_gra.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_4_whitelist.tex
+<images/4_wl_result_eroom.png, id=97, 489.2679pt x 443.9787pt>
+File: images/4_wl_result_eroom.png Graphic file (type png)
+<use images/4_wl_result_eroom.png>
+Package pdftex.def Info: images/4_wl_result_eroom.png  used on input line 29.
+(pdftex.def)             Requested size: 455.24408pt x 413.1127pt.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 60.
 
-[14] [15 <./images/4_pattern_a.PNG>]
-File: images/4_packet_capturing.png Graphic file (type png)
-<use images/4_packet_capturing.png>
-Package pdftex.def Info: images/4_packet_capturing.png  used on input line 80.
-(pdftex.def)             Requested size: 273.14922pt x 143.24123pt.
- [16] (./options/sh.tex
-Overfull \hbox (22.7197pt too wide) in paragraph at lines 110--1
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_wl_result_eroom.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_5_filter.tex (/home/porapatongkanchana/Desktop/whitelist/paper/options/sh.tex
+Overfull \hbox (22.7197pt too wide) in paragraph at lines 8--1
 \OT1/cmr/m/n/12 In this ex-per-i-ment, we cre-ated a fil-ter by com-bin-ing [][][][][][] and [][][][][][].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--1
+Underfull \hbox (badness 10000) in paragraph at lines 8--1
 
  []
 
-)
-<images/4_filter.png, id=77, 447.47176pt x 411.939pt>
-File: images/4_filter.png Graphic file (type png)
-<use images/4_filter.png>
-Package pdftex.def Info: images/4_filter.png  used on input line 133.
-(pdftex.def)             Requested size: 273.14922pt x 251.4584pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/4_netfilter.png, id=78, 870.8535pt x 441.44925pt>
+) [17]
+<images/4_netfilter.png, id=110, 650.73112pt x 314.07338pt>
 File: images/4_netfilter.png Graphic file (type png)
 <use images/4_netfilter.png>
-Package pdftex.def Info: images/4_netfilter.png  used on input line 143.
-(pdftex.def)             Requested size: 455.24408pt x 230.7674pt.
+Package pdftex.def Info: images/4_netfilter.png  used on input line 38.
+(pdftex.def)             Requested size: 455.24408pt x 219.72527pt.
+ [18 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_netfilter.PNG>])) [19]
+Chapter 5.
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/5_conclusion.tex) [20
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+] (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/6_acknowledgement.tex) [21
 
-) [17] [18 <./images/4_filter.PNG> <./images/4_netfilter.PNG>] (./main.aux)
+]
 
-LaTeX Warning: There were multiply-defined labels.
+Package biblatex Warning: Month out of range or not an integer
+(biblatex)                at entry 'INTRO:7123563' on input line 62.
+
+
+Overfull \hbox (15.89151pt too wide) in paragraph at lines 62--62
+\OT1/cmr/m/n/12 cols, and Ap-pli-ca-tions''. In: \OT1/cmr/m/it/12 IEEE Com-mu-ni-ca-tions Sur-veys Tu-to-ri-als \OT1/cmr/m/n/12 17.4 (Fourthquar-
+ []
+
+
+Package biblatex Warning: No driver for entry type 'mics'.
+(biblatex)                Using fallback driver on input line 62.
+
+[22
+
+] [23] (/home/porapatongkanchana/Desktop/whitelist/paper/main.aux)
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 5081 strings out of 492641
- 75471 string characters out of 6131787
- 189174 words of memory out of 5000000
- 8889 multiletter control sequences out of 15000+600000
- 9668 words of font info for 34 fonts, out of 8000000 for 9000
+ 13302 strings out of 492641
+ 232231 string characters out of 6131787
+ 692749 words of memory out of 5000000
+ 16960 multiletter control sequences out of 15000+600000
+ 9969 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,1097b,1132s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ./main.pdf (19 pages, 435950 bytes).
+ 43i,16n,77p,1364b,1216s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /home/porapatongkanchana/Desktop/whitelist/paper/main.pdf (28 pages, 761446 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 165 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,64 @@
+data/10F-pattern-a.pcap
+packet : 103892
+ip : 39390
+udp : 35670
+tcp : 2
+arp : 55230
+tstart : 2019-01-21 12:45:43
+tend : 2019-01-21 17:54:47
+data/10F-pattern-b.pcap
+packet : 101147
+ip : 41124
+udp : 35966
+tcp : 1
+arp : 51380
+tstart : 2019-01-21 12:48:05
+tend : 2019-01-21 17:54:33
+data/eroom-pattern-b.pcap
+packet : 6424
+ip : 4644
+udp : 3036
+tcp : 0
+arp : 1395
+tstart : 2019-01-21 12:52:30
+tend : 2019-01-21 17:49:45
+data/eroom-pattern-a.pcap
+packet : 905454
+ip : 839771
+udp : 665028
+tcp : 164629
+arp : 59885
+tstart : 2018-11-29 07:21:26
+tend : 2018-12-04 05:40:04
+data/10F-upstream-2018-6-4.pcap
+packet : 3778767
+ip : 3119115
+udp : 127773
+tcp : 2977599
+arp : 571628
+tstart : 2018-06-04 05:59:45
+tend : 2018-06-06 06:53:59
+tcpdump-29-11-2018-4-12-2018.pcap
+packet : 905454
+ip : 839771
+udp : 665028
+tcp : 164629
+arp : 59885
+tstart : 2018-11-29 07:21:26
+tend : 2018-12-04 05:40:04
+data/eroom-arp-request-2019-1-21.pcap
+packet : 6424
+ip : 4644
+udp : 3036
+tcp : 0
+arp : 1395
+tstart : 2019-01-20 12:52:30
+tend : 2019-01-20 17:49:45
+data/eroom-switch-bridge-iot.pcap
+packet : 1190083
+ip : 1088115
+udp : 867328
+tcp : 207164
+arp : 92661
+tstart : 2019-01-24 04:07:39
+tend : 2019-01-30 14:34:52

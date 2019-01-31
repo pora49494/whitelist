@@ -1,0 +1,12 @@
+\section{Summary}
+In this thesis, we have presented an IoT security system and ways to implement its function. In this section we would like to state our opinion of what the system should be used. We believe that whitelist filtering function should not be set as the default setting. Securing the device from ever getting infected might sound like a promising approach, however we must trade system flexibility for it. Adding new device, changing network topology or introducing new protocol, function would ruin the whitelist. We need to perform the system traffic analysis again, before using it. We think that this system should operate alongside the anomaly detection server. First, we would allow IoT devices to communicate with any hosts, while keep capturing their packet. If the anomaly is detected, we could use the captured traffic (The traffic before the anomaly is detected) to create the whitelist, and then start blocking the invalid communication until the issue is resolved.  
+
+
+\section{Future Work}
+In this research, we have conducted all the experiment on the bridge PC, from capturing packet, analyzing packet to filtering packet. However, when the IoT system become bigger, with more devices and more packet, performing all the task at the bridge PC might not be the best implementation. We consider the SDN (software defined network) switch as the solution for this problem. Decentralizing the task, let the control plane capturing and filtering packet, while let another server run the analyzation.  
+
+For user experience, we think that users should has easy time understanding the system. Instead of reading through program outputted JSON format, the IoT device’s data and its whitelist should be visualized and put on the web server. User should be able to see and edit device’s whitelist as they demand.  
+
+ 
+
+In this experiment, we have tested our approach on only one IoT system. However, the IoT system is so diversity; each system has its own communication protocol, connection pattern, architecture. Without further testing on more system, it is hard to claim that our approach work. For future work, we want to test our approach on more system from various country, vendor.  
