@@ -1,5 +1,6 @@
 
 \section{Whitelist Extraction}
+\label{s4:whitelist}
 \subsection{Purpose}
 In order to secure our IoT system, the suitable whitelist for each device is crucial. By implementing whitelist, not only can we guarantee that system can withstand the attacks from outside, but we can also prevent our infected device from attacking other servers. In this experiment, we want to find an algorithm to extract the secure hosts. 
 
@@ -32,12 +33,12 @@ The experiment conditions were set to: threshold $>90\%$ and $\tau$ = 60 seconds
 \end{figure}
 
 The screenshot of program's output is shown in figure \ref{fig:s4_wl_result_eroom}
-The list contained the IP address of hosts, the protocol and port number which our devices started the connection to.
+The list contained the IP address of hosts, the protocol and port number which our devices started the connection to (IP addresses in yellow frame of figure \ref{fig:s4_wl_result_eroom} is the whitelist of 192.168.10.10).
 "SECURE" column show the number of time subgroup was judged as secure (First packet was from device).
-"ALL" column show number of subgroup packet of this host was found. 
+"ALL" column show number of subgroup packet of this host was found.  
 
 We compared our program's output with our previous inspect in section \ref{packet_capture} and found that
-hosts extracted with this algorithm were indeed the secured hosts, proving that the program is working.
+hosts extracted with this algorithm were indeed the secured hosts, proving that the program is working.  
 
 \subsection{Discussion} 
 

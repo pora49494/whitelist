@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.16)  31 JAN 2019 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.16)  4 FEB 2019 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -578,148 +578,152 @@ Chapter 1.
 
 ]) [2]
 Chapter 2.
-(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/2_related_technology.tex [3
+(/home/porapatongkanchana/Desktop/whitelist/paper/chapters/2_related_technology.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+<images/1_3layer.png, id=30, 1136.245pt x 374.39874pt>
+File: images/1_3layer.png Graphic file (type png)
+<use images/1_3layer.png>
+Package pdftex.def Info: images/1_3layer.png  used on input line 12.
+(pdftex.def)             Requested size: 318.66946pt x 105.00232pt.
+ [3
 
-] [4]) [5]
+ </home/porapatongkanchana/Desktop/whitelist/paper/images/1_3layer.png>] [4]) [5]
 Chapter 3.
 (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/3_proposed_system.tex
-<images/1_lan.png, id=40, 168.32887pt x 129.18263pt>
+<images/1_lan.png, id=44, 82.8696pt x 80.9424pt>
 File: images/1_lan.png Graphic file (type png)
 <use images/1_lan.png>
-Package pdftex.def Info: images/1_lan.png  used on input line 17.
-(pdftex.def)             Requested size: 182.09485pt x 139.74579pt.
-<images/1_whitelist.png, id=42, 112.62074pt x 112.92188pt>
+Package pdftex.def Info: images/1_lan.png  used on input line 19.
+(pdftex.def)             Requested size: 182.09485pt x 177.88115pt.
+<images/1_whitelist.png, id=45, 114.4275pt x 105.09262pt>
 File: images/1_whitelist.png Graphic file (type png)
 <use images/1_whitelist.png>
-Package pdftex.def Info: images/1_whitelist.png  used on input line 24.
-(pdftex.def)             Requested size: 182.09485pt x 182.59814pt.
+Package pdftex.def Info: images/1_whitelist.png  used on input line 26.
+(pdftex.def)             Requested size: 182.09485pt x 167.2472pt.
  [6
 
 ]
-<images/2_system_architecture.png, id=46, 344.78813pt x 382.42876pt>
+<images/2_system_architecture.png, id=49, 344.78813pt x 382.42876pt>
 File: images/2_system_architecture.png Graphic file (type png)
 <use images/2_system_architecture.png>
-Package pdftex.def Info: images/2_system_architecture.png  used on input line 46.
+Package pdftex.def Info: images/2_system_architecture.png  used on input line 48.
 (pdftex.def)             Requested size: 273.14922pt x 302.97319pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 </home/porapatongkanchana/Desktop/whitelist/paper/images/1_lan.PNG> </home/porapatongkanchana/Desktop/whitelist/paper/images/1_whitelist.PNG>]
-<images/3_overview.png, id=52, 646.21425pt x 405.01312pt>
+[7 </home/porapatongkanchana/Desktop/whitelist/paper/images/1_lan.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/1_whitelist.PNG>] [8 </home/porapatongkanchana/Desktop/whitelist/paper/images/2_system_architecture.PNG>]
+<images/3_overview.png, id=59, 777.90625pt x 483.8075pt>
 File: images/3_overview.png Graphic file (type png)
 <use images/3_overview.png>
-Package pdftex.def Info: images/3_overview.png  used on input line 83.
-(pdftex.def)             Requested size: 455.24408pt x 285.33034pt.
- [8 </home/porapatongkanchana/Desktop/whitelist/paper/images/2_system_architecture.PNG>]) [9 </home/porapatongkanchana/Desktop/whitelist/paper/images/3_overview.PNG>]
+Package pdftex.def Info: images/3_overview.png  used on input line 85.
+(pdftex.def)             Requested size: 455.24408pt x 283.14067pt.
+) [9 </home/porapatongkanchana/Desktop/whitelist/paper/images/3_overview.png>]
 Chapter 4.
 (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_0_experiment.tex (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_1_iot_device.tex
-<images/4_eroom.jpg, id=61, 618.81187pt x 457.71pt>
-File: images/4_eroom.jpg Graphic file (type jpg)
-<use images/4_eroom.jpg>
-Package pdftex.def Info: images/4_eroom.jpg  used on input line 10.
-(pdftex.def)             Requested size: 409.71689pt x 303.06032pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+<images/4_eroom.png, id=64, 519.1395pt x 378.81525pt>
+File: images/4_eroom.png Graphic file (type png)
+<use images/4_eroom.png>
+Package pdftex.def Info: images/4_eroom.png  used on input line 10.
+(pdftex.def)             Requested size: 364.19664pt x 265.75844pt.
  [10
 
-]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_2_packet.tex
-<images/4_packet_capturing.png, id=66, 384.53662pt x 190.311pt>
+ </home/porapatongkanchana/Desktop/whitelist/paper/images/4_eroom.PNG>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_2_packet.tex
+<images/4_packet_capturing.png, id=69, 384.53662pt x 190.311pt>
 File: images/4_packet_capturing.png Graphic file (type png)
 <use images/4_packet_capturing.png>
 Package pdftex.def Info: images/4_packet_capturing.png  used on input line 8.
-(pdftex.def)             Requested size: 250.38562pt x 123.91846pt.
- [11 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_eroom.JPG> </home/porapatongkanchana/Desktop/whitelist/paper/images/4_packet_capturing.PNG>]
-<images/4_pattern_a.png, id=71, 223.73587pt x 380.622pt>
+(pdftex.def)             Requested size: 295.90587pt x 146.44698pt.
+ [11 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_packet_capturing.PNG>]
+<images/4_pattern_a.png, id=74, 355.3275pt x 516.93124pt>
 File: images/4_pattern_a.png Graphic file (type png)
 <use images/4_pattern_a.png>
 Package pdftex.def Info: images/4_pattern_a.png  used on input line 23.
-(pdftex.def)             Requested size: 159.3382pt x 271.0682pt.
-<images/4_pattern_b.png, id=72, 211.08862pt x 359.84438pt>
+(pdftex.def)             Requested size: 159.3382pt x 231.81236pt.
+<images/4_pattern_b.png, id=75, 355.3275pt x 514.92375pt>
 File: images/4_pattern_b.png Graphic file (type png)
 <use images/4_pattern_b.png>
 Package pdftex.def Info: images/4_pattern_b.png  used on input line 30.
-(pdftex.def)             Requested size: 159.3382pt x 271.63417pt.
+(pdftex.def)             Requested size: 159.3382pt x 230.91211pt.
 
-Overfull \hbox (15.88445pt too wide) in paragraph at lines 47--61
+Overfull \hbox (15.88445pt too wide) in paragraph at lines 63--78
 [][] 
  []
 
-[12 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_a.PNG> </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_b.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--79
+[12 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_a.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/4_pattern_b.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_3_device_discovery.tex
+Underfull \hbox (badness 10000) in paragraph at lines 83--1
 
  []
 
-) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_3_device_discovery.tex [13]
-Overfull \hbox (16.63445pt too wide) in paragraph at lines 12--13
+[13]
+Overfull \hbox (16.63445pt too wide) in paragraph at lines 13--14
 \OT1/cmr/m/n/12 ad-dress, its op-code equal to 1, and has tar-get MAC ad-dress equal to \00:00:00:00:00:00".
  []
 
-<images/device_detection/eroom_switch_req.png, id=81, 289.08pt x 289.08pt>
+<images/device_detection/eroom_switch_req.png, id=84, 289.08pt x 289.08pt>
 File: images/device_detection/eroom_switch_req.png Graphic file (type png)
 <use images/device_detection/eroom_switch_req.png>
-Package pdftex.def Info: images/device_detection/eroom_switch_req.png  used on input line 24.
+Package pdftex.def Info: images/device_detection/eroom_switch_req.png  used on input line 25.
 (pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-<images/device_detection/eroom_switch_rep.png, id=82, 289.08pt x 289.08pt>
+<images/device_detection/eroom_switch_rep.png, id=85, 289.08pt x 289.08pt>
 File: images/device_detection/eroom_switch_rep.png Graphic file (type png)
 <use images/device_detection/eroom_switch_rep.png>
-Package pdftex.def Info: images/device_detection/eroom_switch_rep.png  used on input line 31.
+Package pdftex.def Info: images/device_detection/eroom_switch_rep.png  used on input line 32.
 (pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-<images/device_detection/eroom_switch_gra.png, id=83, 289.08pt x 289.08pt>
-File: images/device_detection/eroom_switch_gra.png Graphic file (type png)
-<use images/device_detection/eroom_switch_gra.png>
-Package pdftex.def Info: images/device_detection/eroom_switch_gra.png  used on input line 38.
-(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-<images/device_detection/eroom_arp_req.png, id=84, 289.08pt x 289.08pt>
+<images/device_detection/nodetect.png, id=86, 351.3125pt x 351.3125pt>
+File: images/device_detection/nodetect.png Graphic file (type png)
+<use images/device_detection/nodetect.png>
+Package pdftex.def Info: images/device_detection/nodetect.png  used on input line 39.
+(pdftex.def)             Requested size: 113.81102pt x 113.81068pt.
+<images/device_detection/eroom_arp_req.png, id=87, 289.08pt x 289.08pt>
 File: images/device_detection/eroom_arp_req.png Graphic file (type png)
 <use images/device_detection/eroom_arp_req.png>
-Package pdftex.def Info: images/device_detection/eroom_arp_req.png  used on input line 45.
+Package pdftex.def Info: images/device_detection/eroom_arp_req.png  used on input line 46.
 (pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-<images/device_detection/eroom_arp_rep.png, id=85, 289.08pt x 289.08pt>
-File: images/device_detection/eroom_arp_rep.png Graphic file (type png)
-<use images/device_detection/eroom_arp_rep.png>
-Package pdftex.def Info: images/device_detection/eroom_arp_rep.png  used on input line 52.
-(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-<images/device_detection/eroom_arp_gra.png, id=86, 289.08pt x 289.08pt>
-File: images/device_detection/eroom_arp_gra.png Graphic file (type png)
-<use images/device_detection/eroom_arp_gra.png>
-Package pdftex.def Info: images/device_detection/eroom_arp_gra.png  used on input line 59.
-(pdftex.def)             Requested size: 113.81102pt x 113.8082pt.
-[14 </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_req.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_rep.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_gra.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_req.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_rep.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_gra.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_4_whitelist.tex
-<images/4_wl_result_eroom.png, id=97, 489.2679pt x 443.9787pt>
+File: images/device_detection/nodetect.png Graphic file (type png)
+<use images/device_detection/nodetect.png>
+Package pdftex.def Info: images/device_detection/nodetect.png  used on input line 53.
+(pdftex.def)             Requested size: 113.81102pt x 113.81068pt.
+File: images/device_detection/nodetect.png Graphic file (type png)
+<use images/device_detection/nodetect.png>
+Package pdftex.def Info: images/device_detection/nodetect.png  used on input line 60.
+(pdftex.def)             Requested size: 113.81102pt x 113.81068pt.
+[14 </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_req.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_switch_rep.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/nodetect.png> </home/porapatongkanchana/Desktop/whitelist/paper/images/device_detection/eroom_arp_req.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_4_whitelist.tex
+<images/4_wl_result_eroom.png, id=96, 489.2679pt x 443.9787pt>
 File: images/4_wl_result_eroom.png Graphic file (type png)
 <use images/4_wl_result_eroom.png>
-Package pdftex.def Info: images/4_wl_result_eroom.png  used on input line 29.
+Package pdftex.def Info: images/4_wl_result_eroom.png  used on input line 30.
 (pdftex.def)             Requested size: 455.24408pt x 413.1127pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15] [16 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_wl_result_eroom.png>]) (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/4_5_filter.tex (/home/porapatongkanchana/Desktop/whitelist/paper/options/sh.tex
-Overfull \hbox (22.7197pt too wide) in paragraph at lines 8--1
-\OT1/cmr/m/n/12 In this ex-per-i-ment, we cre-ated a fil-ter by com-bin-ing [][][][][][] and [][][][][][].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--1
+Underfull \hbox (badness 10000) in paragraph at lines 10--1
 
  []
 
 ) [17]
-<images/4_netfilter.png, id=110, 650.73112pt x 314.07338pt>
+<images/4_netfilter.png, id=109, 650.73112pt x 314.07338pt>
 File: images/4_netfilter.png Graphic file (type png)
 <use images/4_netfilter.png>
-Package pdftex.def Info: images/4_netfilter.png  used on input line 38.
+Package pdftex.def Info: images/4_netfilter.png  used on input line 41.
 (pdftex.def)             Requested size: 455.24408pt x 219.72527pt.
- [18 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_netfilter.PNG>])) [19]
+ [18 </home/porapatongkanchana/Desktop/whitelist/paper/images/4_netfilter.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
+
+ []
+
+)) [19]
 Chapter 5.
 (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/5_conclusion.tex) [20
 
-] (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/6_acknowledgement.tex) [21
+] [21] (/home/porapatongkanchana/Desktop/whitelist/paper/chapters/6_acknowledgement.tex) [22
 
 ]
 
@@ -735,26 +739,34 @@ Overfull \hbox (15.89151pt too wide) in paragraph at lines 62--62
 Package biblatex Warning: No driver for entry type 'mics'.
 (biblatex)                Using fallback driver on input line 62.
 
-[22
 
-] [23] (/home/porapatongkanchana/Desktop/whitelist/paper/main.aux)
+Package biblatex Warning: No driver for entry type 'mics'.
+(biblatex)                Using fallback driver on input line 62.
+
+
+Package biblatex Warning: No driver for entry type 'mics'.
+(biblatex)                Using fallback driver on input line 62.
+
+[23
+
+] [24] (/home/porapatongkanchana/Desktop/whitelist/paper/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13302 strings out of 492641
- 232231 string characters out of 6131787
+ 13319 strings out of 492641
+ 233002 string characters out of 6131787
  692749 words of memory out of 5000000
- 16960 multiletter control sequences out of 15000+600000
+ 16979 multiletter control sequences out of 15000+600000
  9969 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,77p,1364b,1216s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,77p,1364b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /home/porapatongkanchana/Desktop/whitelist/paper/main.pdf (28 pages, 761446 bytes).
+Output written on /home/porapatongkanchana/Desktop/whitelist/paper/main.pdf (29 pages, 932646 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 167 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

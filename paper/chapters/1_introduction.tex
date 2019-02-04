@@ -1,20 +1,21 @@
-\section{The Internet of Thing}
+\section{Background}
 
-IoT, the internet of thing, is a concept of implementing commutable daily objects. These objects are connected to the internet, allowing the transmission of gathered information and controller commands to be done anytime, anywhere. The problems that used to take time and effort to detecting or solving can now be done easier and faster because of IoT.  
+IoT, the internet of thing, is a concept of implementing commutable daily objects. These objects are connected to the internet, allowing the transmission of gathered information and controller commands to be done anytime, anywhere. 
+Problems that used to take time and effort now be done easier and faster because of IoT \cite{INTRO:2}\cite{INTRO:3}. 
 
-IoT technology is developing and growing at the exponential rate. The global economic impact of IoT is estimated to reach trillion dollars by 2025 and more than 50 billion devices are expected to be deployed in 2020. \parencite{INTRO:1} Many of world leading technology companies are pouring their resource into developing the future of IoT.\parencite{INTRO:7123563} It is natural to think that IoT will soon be integrated into a part of our life.  
+IoT technology is developing and growing at the exponential rate. The global economic impact of IoT is estimated to reach trillion dollars by 2025 and more than 50 billion devices are expected to be deployed in 2020 \parencite{INTRO:1}. Many of world leading technology companies are pouring their resource into developing the future of IoT \parencite{INTRO:7123563}. It is natural to think that IoT will soon be integrated into a part of our life.  
   
 IoT applications can be used in almost every aspects of our life. For example; in healthcare system, some of patient’s medical asset information can be collected through a smart wearable, reducing tasks of medical staff. In electricity power system, “Smart grid” implementation allows a better energy management and more durable against blackout. “Smart house”, where your house can automatically turn off the light when nobody is at home. This is just a tip of an iceberg of what IoT can do for us. 
  
-With the number of IoT device and its application growing, our world has never been more comfortable, however it has also never been scarier. IoT device has access to our privacy information, if these information falls into the wrong hand, it can lead to privacy breaching, data forging or even worse a matter of life and death. The security of IoT is something we really need to put our attention to. 
- 
-\section{IoT Security}
+With the number of IoT device and its application growing, our world has never been more comfortable, however it has also never been scarier. IoT device has access to our privacy information, if this information falls into the wrong hand, it can lead to privacy breaching, data forging or even worse a matter of life and death\parencite{ATTACK:2}\parencite{ATTACK:3}. The security of IoT is something we really need to put our attention to. 
   
-In 2018, it is reported that “Telnet attack” is the most frequent attack on IoT system, followed by “SSH attack”. \cite{ATTACK:1} The telnet attack and SSH attack is an attack vector that exploit user’s behavior of not changing device’s default username and password. Attackers try to get device’s root permission by brute-forcing all user, password combination. If adversary has acquired device’s root permission, he can use that IoT device as their desire. This means accessing to all data in the device, installing and uninstalling any software, downloading and uploading, attacking target servers or even spreading the attack to other devices in LAN. It may seem like this kind of attack can be prevented by user’s configuration, but the study show that more than 300 million devices are venerable by this attacking method. Moreover, in 2016, the infamous “MIRAI” virus was spread over six hundred thousand devices and caused one of the biggest DDOS attack ever in the history of mankind.\parencite{ATTACK:7971869}  
+In 2018, it is reported that “Telnet attack” is the most frequent attack on IoT system, followed by “SSH attack”\cite{ATTACK:1}. The telnet attack and SSH attack is an attack vector that exploit user’s behavior of not changing device’s default username and password. Attackers try to get device’s root permission by brute-forcing all user, password combination. If adversary has acquired device’s root permission, he can use that IoT device as their desire. This means accessing to all data in the device, installing and uninstalling any software, downloading and uploading any privacy data, attacking target servers or even spreading malware to other devices. The infamous “MIRAI” virus also used telnet to spread over six hundred thousand devices causing one of the biggest DDOS attack ever in the history of mankind \parencite{ATTACK:7971869}.
 
-\section{purpose}
-In this research, we prioritize on improving the foundation of IoT system, the IoT devices at the perception layer. We want to create a system, that can help user securing their devices and alleviating troublesome task of device’s configuration.  
+Vulnerabilities in IoT device are existed and in much needed for the solution. For the better world and for the better tomorrow, we can not allow the IoT devices to get compromised. The pursue for the improvement of IoT devices security is critical.   
 
+
+\section{Purpose}
+The aim of this paper is to construct a system that can secure user's IoT devices, protect them from various attack surfaces and alleviate the troublesome task of system management. 
 
 \section{Outline}
 In chapter 2, we described technologies related to this research along with previous attempt to secure IoT system. We presented our IoT security system in chapter 3. In chapter 4, we conducted various experiment to investigate system’s functions performance, along with how to improve it. Chapter 5 is this thesis summary and discussion.  

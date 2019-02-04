@@ -1,13 +1,13 @@
-\section{IoT system - eroom} 
+\section{Experiment Environment} 
+\label{s4:capture}
 
 Load leveling is a system that usually found in renewable sources electricity generator. System’s function is to balance the excess energy, for example in solar panel case; it can either store or sale the excess electricity produced during day time, while discharge electricity during night.
 
-eroom an IoT system that connects load levelling with battery, control panel, air conditioners and solar panel. The network topology of eroom IoT is shown in figure \ref{fig:s4_eroom}. 
+\textbf{eroom} is an IoT system that connects load levelling with battery, control panel, air conditioners and solar panel. The network topology of eroom IoT is shown in figure \ref{fig:s4_eroom}. 
 
-\begin{figure}
-
+\begin{figure}[H]
     \centering  
-    \includegraphics[width=0.9\textwidth]{4_eroom} 
+    \includegraphics[width=0.8\textwidth]{4_eroom} 
     \caption{\small The network topology of eroom.} 
     \label{fig:s4_eroom} 
 \end{figure}  
@@ -23,8 +23,8 @@ User can also configure the way load leveling operate through the control panel.
 The consumption data, along with command code is passed to EchoLiteGW for taking record. 
 
 \begin{itemize}[itemsep=0mm] 
-    \item The control panel (192.168.10.11): This control panel is used as user interface, it can take command of how load leveling should operate, visualize the collected data: how much electricity has been produced, how much electricity did air conditioner has consumed, and more. 
-    \item IEEE1888-EchonetLiteGW (192.168.10.10); EchonetLite is communication protocol standard for smart devices used in house (air conditioner, lighting equipment or electricity sensor). In this IoT system, air conditioner controllers and the control panel communicate with each other using Profinet (UDP/3610), IEEE1888-EchonetLiteGW serves as a gateway adapter, translate Profinet protocol data into XML for storing data on GUTP server.  
+    \item The control panel (192.168.10.11). This control panel is used as user interface, it can take command of how load leveling should operate, visualize the collected data: how much electricity has been produced, how much electricity did air conditioner has consumed, and more. 
+    \item IEEE1888-EchonetLiteGW (192.168.10.10). EchonetLite is communication protocol standard for smart devices used in house (air conditioner, lighting equipment or electricity sensor). In this IoT system, air conditioner controllers and the control panel communicate with each other using Profinet (UDP/3610), IEEE1888-EchonetLiteGW serves as a gateway adapter, translate Profinet protocol data into XML for storing data on GUTP server.  
     \item 2 Air conditioners with controller (192.168.10.12, 192.168.10.13). This air conditioners are operating according to the setting from the control panel. 
-    \item (Wireless Router (192.168.10.1) connecting all 4 devices and the internet) 
+    \item (Wireless Router (192.168.10.1). It is used to connect all 4 devices and the internet) 
 \end{itemize} 

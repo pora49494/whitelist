@@ -19,6 +19,123 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{INTRO:2}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=10931d80374a61d18781eb3863fcb29b}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Yesha},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f87c9c19a1b9c8e672cc81a53622c433}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Chintan},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f87c9c19a1b9c8e672cc81a53622c433}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Chintan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=659a6768e590976867dabad7f147d36c}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Nilanjan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e297ebec982e3f95050c238792a28925}{%
+           family={Ashour},
+           familyi={A\bibinitperiod},
+           given={Amira\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{fullhash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{bibnamehash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{authorbibnamehash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{authornamehash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{authorfullhash}{94e4446ce210c3b87d1dfeee80474eaa}
+      \strng{editorbibnamehash}{e5006a25eee4c3a179f7a340f2be7237}
+      \strng{editornamehash}{e5006a25eee4c3a179f7a340f2be7237}
+      \strng{editorfullhash}{e5006a25eee4c3a179f7a340f2be7237}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Internet of Things and Big Data Technologies for Next Generation Healthcare}
+      \field{isbn}{978-3-319-49736-5}
+      \field{title}{Internet of Things in HealthCare}
+      \field{year}{2017}
+      \field{pages}{13\bibrangedash 33}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/978-3-319-49736-5_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-49736-5_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-49736-5_2
+      \endverb
+    \endentry
+    \entry{INTRO:3}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e87e86edfd64653d2d629a0c79c2bc06}{%
+           family={Zanella},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=26b3116622e3a8f7660ce057765100dc}{%
+           family={Bui},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2455235ff8353359c7ff786bf0a90939}{%
+           family={Castellani},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=456e52ad0d85cb2837f95e1430b80ca7}{%
+           family={Vangelista},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=573809854abf3ee901709e2e9978ebaa}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{04acd016e5a85d774febce338b628661}
+      \strng{fullhash}{05aa90e4c7b8707f0563771d947b11bf}
+      \strng{bibnamehash}{04acd016e5a85d774febce338b628661}
+      \strng{authorbibnamehash}{04acd016e5a85d774febce338b628661}
+      \strng{authornamehash}{04acd016e5a85d774febce338b628661}
+      \strng{authorfullhash}{05aa90e4c7b8707f0563771d947b11bf}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2327-4662}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Internet of Things for Smart Cities}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{22\bibrangedash 32}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/JIOT.2014.2306328
+      \endverb
+      \keyw{Internet;Internet of Things;protocols;Padova smart city project;protocols;advanced communication technology;value-addedservices;Smart City vision;urban IoT system;link layer technology;digital services;heterogeneous end systems;Internet of Things;Urban areas;Smart buildings;Monitoring;Smart homes;Business;IEEE 802.15 Standards;Constrained Application Protocol (CoAP);Efficient XML Interchange (EXI);network architecture;sensor system integration;service functions and management;Smart Cities;testbed and trials;6lowPAN}
+    \endentry
     \entry{INTRO:1}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=41e6c9a90f8d3ad6ba03fcf48eb9ab4a}{%
@@ -33,8 +150,8 @@
       \strng{authorbibnamehash}{41e6c9a90f8d3ad6ba03fcf48eb9ab4a}
       \strng{authornamehash}{41e6c9a90f8d3ad6ba03fcf48eb9ab4a}
       \strng{authorfullhash}{41e6c9a90f8d3ad6ba03fcf48eb9ab4a}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IDC iView: IDC Anal. Future}
@@ -79,8 +196,8 @@
       \strng{authorbibnamehash}{bbf770081bac6c4acbb815fa4d6bd138}
       \strng{authornamehash}{bbf770081bac6c4acbb815fa4d6bd138}
       \strng{authorfullhash}{cdc08f8b8f9e07374b7dd2b6011e4bb3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1553-877X}
@@ -96,6 +213,64 @@
       \verb 10.1109/COMST.2015.2444095
       \endverb
       \keyw{Internet of Things;mobile communication;protocols;radiofrequency identification;Internet of Things;RFID;smart sensors;communication technologies;Internet protocols;machine-to-machine;M2M technologies;intelligent decision making;fog computing;big data analytics;cloud computing;Internet of things;Computer architecture;Radiofrequency identification;Intelligent sensors;Mobile communication;Internet of things;IoT;CoAP;MQTT;AMQP;XMPP;DDS;mDNS;IoT Gateway;Internet of Things (IoT);CoAP;MQTT;AMQP;XMPP;DDS;mDNS;IoT gateway}
+    \endentry
+    \entry{ATTACK:2}{mics}{}
+      \name{author}{1}{}{%
+        {{hash=130e3a268074d9f153a22ed761a483b4}{%
+           family={LLC},
+           familyi={L\bibinitperiod},
+           given={Muddy\bibnamedelima Waters},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{130e3a268074d9f153a22ed761a483b4}
+      \strng{fullhash}{130e3a268074d9f153a22ed761a483b4}
+      \strng{bibnamehash}{130e3a268074d9f153a22ed761a483b4}
+      \strng{authorbibnamehash}{130e3a268074d9f153a22ed761a483b4}
+      \strng{authornamehash}{130e3a268074d9f153a22ed761a483b4}
+      \strng{authorfullhash}{130e3a268074d9f153a22ed761a483b4}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{MW is short St. Jude Medical (STJ: US)}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.muddywatersresearch.com/research/stj/mw-is-short-stj/
+      \endverb
+      \verb{url}
+      \verb https://www.muddywatersresearch.com/research/stj/mw-is-short-stj/
+      \endverb
+    \endentry
+    \entry{ATTACK:3}{mics}{}
+      \name{author}{1}{}{%
+        {{hash=5ecbbd708bffa59a78954f763d2e308a}{%
+           family={Garlati},
+           familyi={G\bibinitperiod},
+           given={Cesare},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ecbbd708bffa59a78954f763d2e308a}
+      \strng{fullhash}{5ecbbd708bffa59a78954f763d2e308a}
+      \strng{bibnamehash}{5ecbbd708bffa59a78954f763d2e308a}
+      \strng{authorbibnamehash}{5ecbbd708bffa59a78954f763d2e308a}
+      \strng{authornamehash}{5ecbbd708bffa59a78954f763d2e308a}
+      \strng{authorfullhash}{5ecbbd708bffa59a78954f763d2e308a}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Owlet Baby Wi-Fi Monitor "Worst IoT Security Of 2016"}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.informationsecuritybuzz.com/expert-comments/owlet-baby-wi-fi-monitor-worst-iot-security-2016/
+      \endverb
+      \verb{url}
+      \verb https://www.informationsecuritybuzz.com/expert-comments/owlet-baby-wi-fi-monitor-worst-iot-security-2016/
+      \endverb
     \endentry
     \entry{ATTACK:1}{mics}{}
       \name{author}{1}{}{%
@@ -113,8 +288,8 @@
       \strng{authorbibnamehash}{c9d432d01ed253aa4b74b2acac75ee23}
       \strng{authornamehash}{c9d432d01ed253aa4b74b2acac75ee23}
       \strng{authorfullhash}{c9d432d01ed253aa4b74b2acac75ee23}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -157,8 +332,8 @@
       \strng{authorbibnamehash}{902e030e8a823ca8aab20f69cc39dce0}
       \strng{authornamehash}{902e030e8a823ca8aab20f69cc39dce0}
       \strng{authorfullhash}{8dad482ddf1be556b8655096189a86f7}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9162}
@@ -203,8 +378,8 @@
       \strng{authorbibnamehash}{da85ee026c7a739751ab89edb9a49567}
       \strng{authornamehash}{da85ee026c7a739751ab89edb9a49567}
       \strng{authorfullhash}{3a86aa0f6451d25fc6aade94222aaeb8}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2012 International Conference on Computer Science and Electronics Engineering}
@@ -258,8 +433,8 @@
       \strng{authorbibnamehash}{bb8d7fdc302677ebc7e4bd0f525c0f89}
       \strng{authornamehash}{bb8d7fdc302677ebc7e4bd0f525c0f89}
       \strng{authorfullhash}{391d308d88f294e6367974a5c0d71b6e}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2014 IEEE 7th International Conference on Service-Oriented Computing and Applications}
@@ -303,8 +478,8 @@
       \strng{authorbibnamehash}{b324e295ca01ae9fee08795bdab039b3}
       \strng{authornamehash}{b324e295ca01ae9fee08795bdab039b3}
       \strng{authorfullhash}{8d158114893c1a3845684532a68bcaa3}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 10th International Conference for Internet Technology and Secured Transactions (ICITST)}
@@ -347,8 +522,8 @@
       \strng{authorbibnamehash}{00046233254ecbb32ff16b6782fc2eb8}
       \strng{authornamehash}{00046233254ecbb32ff16b6782fc2eb8}
       \strng{authorfullhash}{783ef3b4f4082f4e8e18a89f0ac939f4}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2016 Cybersecurity and Cyberforensics Conference (CCC)}

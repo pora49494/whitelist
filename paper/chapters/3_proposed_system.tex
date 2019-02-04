@@ -1,14 +1,16 @@
-\section{System requirement}
+In this chapter, we presented our novel-approach of how the IoT securing system should operate. However, we didn't complete the system. We only implemented, tested and evaluated the performace of each funtions the system used, under the assumption that if these functions perform well, then the system itself should also perform well too.
+
+\section{System requirements}
 This research aims to improve the security of smart device (especially the smart sensor) in IoT system. 
 The security system we want to implement must have the following requirements. 
 
-\begin{enumerate}
-    \item \textbf{Guarantee device safety;} The focus of the system is to secure the perception layer of IoT system, the sensor.  
-    \item \textbf{Independent from device;} System should be able to operate without any additional setups on IoT devices. This design help reducing the additional work when dealing with a large-scaled IoT system.    
-    \item \textbf{Can implement on top of an existed system;} Users can easily install system without having to change their network topology.
-    \item \textbf{Do not affect system performance;} After system is added to the workspace, it should not impede on the performance: system latency, packet drop.
-    \item \textbf{Reduce system manager’s task; } Normally, the system manager can investigate the system integrity by looking its traffic pattern, system performance, CPU temperature and more. However, considering that system manager can come and go, without well written document, it is quite burdensome for user, or new manager to understand the system by themselves. We believe that the system must perform partially automatic without any help from user.
-\end{enumerate}
+\begin{itemize}
+    \item \textbf{Guarantee device safety:} The focus of the system is to secure the perception layer of IoT system, the sensor.  
+    \item \textbf{Independent from device:} System should be able to operate without any additional setups on IoT devices. This design help reducing the additional work when dealing with a large-scaled IoT system.    
+    \item \textbf{Can implement on top of an existed system:} Users can easily install system without having to change their network topology.
+    \item \textbf{Do not affect system performance:} After system is added to the workspace, it should not impede on the performance: system latency, packet drop.
+    \item \textbf{Reduce system manager’s task:} Normally, the system manager can investigate the system integrity by looking its traffic pattern, system performance, CPU temperature and more. However, considering that system manager can come and go, without well written document, it is quite burdensome for user, or new manager to understand the system by themselves. We believe that the system must perform partially automatic without any help from user.
+\end{itemize}
 
 \begin{figure}
     \centering
@@ -35,7 +37,7 @@ The security system we want to implement must have the following requirements.
 We wanted to create the system with all characteristics mention above. The approach we came up consists of two main idea: Switch level security and Whitelist.  
 
 \subsection{Switch level security}
-Switch level security is securing IoT at the lower level of network protocol. The security measurement is done outside of the edge device, between the internet and device. (figure \ref{fig:s3_lan}) The benefit of using this method is that there is no need for additional configuration at edge devices. Moreover, it is security at low level where transmission protocol is more restricted, therefore can be managed more easily. Another benefit of layer 2 security is even when malicious host or infected host has entered the local area network, it can prevent the infection from spreading. 
+Switch level security is securing IoT at the lower level of network protocol. The security measurement is done outside of the edge device, between the internet and device (figure \ref{fig:s3_lan}).  The benefit of using this method is that there is no need for additional configuration at edge devices. Moreover, it is security at low level where transmission protocol is more restricted, therefore can be managed more easily. Another benefit of layer 2 security is even when malicious host or infected host has entered the local area network, it can prevent the infection from spreading. 
 
 \subsection{Whitelist}
 Consider that the number of hosts, sensor normally connect to is limited: NTP (Network Time Protocol) server for clock synchronization, DNS (Domain Name System) Server for translating between host name and IP address, DHCP (Dynamic Host Configuration Protocol) server for dynamic IP assigning, HTTP (Hypertext Transfer Protocol) server for its application usage and vender specific communication protocol. Whitelist approaching is considerably more ideal in IoT sensor.
@@ -48,7 +50,7 @@ Consider that the number of hosts, sensor normally connect to is limited: NTP (N
     \label{fig:s3_system_architecture} 
 \end{figure}
 
-System operation is divided into 3 stages: Preparation stage, Analyzation stage and Operation stage. Preparation stage and Analyzation stage would be performed at the system’s initialization, while Operation stage is used after that for the rest of system operating period.  
+System infrastructure is shown in figure \ref{fig:s3_system_architecture}. The operation of this system is divided into 3 stages: Preparation stage, Analyzation stage and Operation stage. Preparation stage and Analyzation stage would be performed at the system’s initialization, while Operation stage is used after that for the rest of system operating period.  
 
 \subsection{Preparation Stage}
 In this stage, all packet going through switch would be captured. This system is developed under the assumption that during Preparation Stage, the network, edge devices, servers, middleware is secure and no malicious software has entered into the system yet.

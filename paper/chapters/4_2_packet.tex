@@ -1,11 +1,11 @@
 \section{Packet Capturing}
 \label{packet_capture}
 \subsection{Purpose}
-Packet data is captured, then analyzed to investigate the pattern of IoT system communication. This packet data capturing method is used in both “Device discovery experiment”, and “Whitelist extraction” 
+In this experiment, we captured system's traffic data, then analyzed it to find the pattern of this IoT system communication. This packet data capturing method is also used in both “Device discovery experiment” and “Whitelist extraction experiment”. 
 
 \begin{figure}[h]
     \centering 
-    \includegraphics[width=0.55\textwidth]{4_packet_capturing}
+    \includegraphics[width=0.65\textwidth]{4_packet_capturing}
     \caption{Packet Capturing}
     \label{fig:s4_packet_capturing}
 \end{figure}
@@ -32,6 +32,7 @@ In this experiment, we had tested capturing devices’ packet in 2 patterns. In 
         \label{fig:s4_pattern_b}
     \end{subfigure}
     \caption{Packet capturing method}
+    \label{fig:s4_patterns}
 \end{figure}
 
 
@@ -39,14 +40,30 @@ In this experiment, we had tested capturing devices’ packet in 2 patterns. In 
 \subsection{Result}
 
 After we have sufficiently taken to traffic data, we used Wireshark to perform primary investigation. 
-The results are summarized below (In this research, we only considered IPv4). 
-
-\subsubsection{eroom - Pattern A (Switch-Bridge-IoT)}
+The summary of each captured data is shown in table \ref{tab:s4_metadata}.
 
 \begin{table}[H]
+    \caption{Captured data summary}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cc}
+    \toprule
+    & \textbf{Captured period} & \begin{tabular}[c]{@{}l@{}} \textbf{Number of packets} \end{tabular} \\ \toprule
+    \textbf{Pattern A}  & 2018-11-29 07:21:26 - 2018-12-04 05:40:04 & 905454 \\ \hline
+    \textbf{Pattern B}  & 2019-01-20 12:52:30 - 2019-01-20 17:49:45 & 6424 \\ \bottomrule
+    \label{tab:s4_metadata}
+\end{tabular*}
+
+\end{table}
+
+\subsubsection{Pattern A (Switch-Bridge-IoT)}
+We analyzed network traffic data (Pattern A) and summarized each host necessary traffic in table \ref{tab:s4_eroom}.
+
+\begin{table}[H]
+    \caption{Pattern-A Packet Summary}
+    \label{tab:s4_eroom}
     \begin{tabular}{l|lll}
+    \toprule
     \textbf{Source}                                                                & \textbf{Destination}                                                                                             & \textbf{Protocol}   & \textbf{Description}                                                               \\ \toprule
-    \multirow{3}{*}{Router(.1)}                                                    & 224.0.0.1                                                                                                        & IGMPv2              & \begin{tabular}[c]{@{}l@{}}Multi-cast group \\ participation protocol\end{tabular} \\ \cline{2-4} 
+    \multirow{3}{*}{Router(.1)}                                                     & 224.0.0.1                                                                                                        & IGMPv2              & \begin{tabular}[c]{@{}l@{}}Multi-cast group \\ participation protocol\end{tabular} \\ \cline{2-4} 
                                                                                    & 239.255.255.250                                                                                                  & SSDP(UDP/1900)     & \begin{tabular}[c]{@{}l@{}}Simple Service \\ Discovery Protocol\end{tabular}       \\ \cline{2-4} 
                                                                                    & EchonetLite \small(.10)                                                                                                & DNS(UDP/53)         & DNS Response                                                                       \\ \hline
     \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}EchonetLite\\ (.10)\end{tabular}}   & 160.16.109.189                                                                                                   & HTTP/POST(TCP/80)  & \begin{tabular}[c]{@{}l@{}}For saving data \\ to the database\end{tabular}         \\ \cline{2-4} 
@@ -58,22 +75,12 @@ The results are summarized below (In this research, we only considered IPv4).
                                                                                     & EchonetLite \small(.10)                                                                                                & Profinet(UDP/3610)         & DNS Response                                                                       \\ \hline
                                                                                 \begin{tabular}[c]{@{}l@{}}Air Conditioner\\  (.12/.13)\end{tabular}           & EchonetLite \small(.10)                                                                                                & Profinet(UDP/3610) & EchoNet Protocol                                                           \\ \bottomrule       
     \end{tabular} 
-
-    \begin{tablenotes}
-        \small
-        \item Captured period : 2018-11-29 07:21:26 - 2018-12-04 05:40:04 
-        \item Number of captured packet : 905454  
-    \end{tablenotes}
-    \caption{eroom-Pattern-A Packet Summary}
-    \label{table:s4_eroom}
+    
 \end{table}
 
 
-\subsubsection{eroom - Pattern B}
-\small
-Captured period : 2019-01-20 12:52:30 - 2019-01-20 17:49:45\\
-Number of captured packet : 6424   
-\normalsize
-\\ \\
+\subsubsection{Pattern B (Switch Port)}
 For pattern B, we could only detect broadcast packets. We found that packet data we have captured is mainly contained with ARP request packet and SSDP packet.
-
+\newline\newline
+From the result above, we knew which host is necessary for device and which is not.  
+We would then use table \ref{tab:s4_eroom} as the evaluator for our "Whitelist Extraction" experiment (section \ref{s4:whitelist})  

@@ -1974,20 +1974,24 @@
     <bcf:datasource type="file" datatype="bibtex">_references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">INTRO:1</bcf:citekey>
-    <bcf:citekey order="2">INTRO:7123563</bcf:citekey>
-    <bcf:citekey order="3">ATTACK:1</bcf:citekey>
-    <bcf:citekey order="4">ATTACK:7971869</bcf:citekey>
-    <bcf:citekey order="5">STAGE:6188257</bcf:citekey>
-    <bcf:citekey order="6">STAGE:6188257</bcf:citekey>
-    <bcf:citekey order="7">ISSUE1</bcf:citekey>
-    <bcf:citekey order="8">ISSUE2</bcf:citekey>
-    <bcf:citekey order="9">AUTH1</bcf:citekey>
-    <bcf:citekey order="10">PRIVACY1</bcf:citekey>
-    <bcf:citekey order="11">PRIVACY2</bcf:citekey>
-    <bcf:citekey order="12">PRIVACY3</bcf:citekey>
-    <bcf:citekey order="13">OTHER1</bcf:citekey>
-    <bcf:citekey order="14">OTHER2</bcf:citekey>
+    <bcf:citekey order="1">INTRO:2</bcf:citekey>
+    <bcf:citekey order="2">INTRO:3</bcf:citekey>
+    <bcf:citekey order="3">INTRO:1</bcf:citekey>
+    <bcf:citekey order="4">INTRO:7123563</bcf:citekey>
+    <bcf:citekey order="5">ATTACK:2</bcf:citekey>
+    <bcf:citekey order="6">ATTACK:3</bcf:citekey>
+    <bcf:citekey order="7">ATTACK:1</bcf:citekey>
+    <bcf:citekey order="8">ATTACK:7971869</bcf:citekey>
+    <bcf:citekey order="9">STAGE:6188257</bcf:citekey>
+    <bcf:citekey order="10">STAGE:6188257</bcf:citekey>
+    <bcf:citekey order="11">ISSUE1</bcf:citekey>
+    <bcf:citekey order="12">ISSUE2</bcf:citekey>
+    <bcf:citekey order="13">AUTH1</bcf:citekey>
+    <bcf:citekey order="14">PRIVACY1</bcf:citekey>
+    <bcf:citekey order="15">PRIVACY2</bcf:citekey>
+    <bcf:citekey order="16">PRIVACY3</bcf:citekey>
+    <bcf:citekey order="17">OTHER1</bcf:citekey>
+    <bcf:citekey order="18">OTHER2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
